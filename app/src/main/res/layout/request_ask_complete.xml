@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_color">
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:text="Work Completed?"
+        android:background="@color/background"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/work_completed_radio"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:textSize="20dp"
+            android:id="@+id/completed_yes"/>
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:textSize="20dp"
+            android:id="@+id/completed_no"/>
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:id="@+id/change_submit_work"
+        android:textSize="25dp"/>
+</LinearLayout>

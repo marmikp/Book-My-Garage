@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_color">
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:id="@+id/input_field"
+        android:textAlignment="center"
+        android:textSize="30dp"
+
+        android:background="@color/background"/>
+    <EditText
+        android:id="@+id/filed_value_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:textSize="25dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:id="@+id/change_submit"
+        android:textSize="25dp"/>
+</LinearLayout>
